@@ -1,127 +1,203 @@
+body {
+	font-family: "baskerville-urw", 'Libre Baskerville', serif;
+}
 
 .container{
+	display: block;
 	position:absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
+	width:90%;
+	height:auto;
+	left:5%;
 	background-color: white;
-
+	text-align: justify;
 }
 
 h1 {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 25em;
+  	font-weight: 700;
 	color: black;
+	margin-top: 0;
+}
+
+#screenwash {
+	position: absolute;
+	margin: 0px;
+	padding: 0% 5%;
+	left:0px;
+	width: 90%;
+	height: 100%;
+	background-color: #C2C2E0;
+	color: white;
+	top:-100%;
+	z-index: 10;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 2em;
+	display: inline-block;
+	margin-top: 0;
+	white-space: normal;
+}
+
+button {
+	font-family: "baskerville-urw", 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	background-color: #4757A8;
+	border-radius: 0;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#forthebirds {
+	display: none;
 }
 
 
+@media (max-width: 1450px) {
+	h1 {	
+		font-size: 29em;
+	}
+	.container {
+		top:-3%;
+	}
+}
 
-@media (max-width: 1400px) { 
-	.box{	
+@media (max-width: 1400px) {
+	h1 {	
+		font-size: 28em;
+	}
+	.container {
+		top:-1.5%;
 	}
 }
 
 @media (max-width: 1375px) { 
-	.box{	
-	}
 }
+
 @media (max-width: 1350px) { 
-	.box{
+	h1 {
+		font-size: 27em;
+	}
+	.container {
+		top:.5%;
 	}
 }
 
 @media (max-width: 1325px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1300px) { 
-	.box{
+	h1 {
+		font-size: 26em;
+	}
+	.container {
+		top:1.5%;
 	}
 }
 
 @media (max-width: 1275px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1250px) { 
-	.box{
+	h1 {
+		font-size: 25em;
+	}
+	.container {
+		top:4%;
 	}
 }
 
 @media (max-width: 1225px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1200px) { 
-	.box{
+	h1 {
+		font-size: 24em;
+	}
+	.container {
+		top:5.5%;
 	}
 }
 
 @media (max-width: 1175px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1150px) { 
-	.box{
+	h1 {
+		font-size: 23em;
+	}
+	.container {
+		top:7%;
 	}
 }
 
 @media (max-width: 1125px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1100px) { 
-	.box{
+	h1 {
+		font-size: 22em;
+	}
+	.container {
+		top:8%;
 	}
 }
 
 @media (max-width: 1075px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1050px) { 
-	.box{
+	h1 {
+		font-size: 21em;
 	}
-}
-
-@media (max-width: 1250px) { 
-	.box{
+	.container {
+		top:9%;
 	}
 }
 
 @media (max-width: 1025px) { 
-	.box{
-	}
 }
 
 @media (max-width: 1000px) { 
-	.box{
+	h1 {
+		font-size: 20em;
+	}
+	.container {
+		top:10%;
 	}
 }
 
 @media (max-width: 975px) { 
-	.box{
-	}
+
 }
 @media (max-width: 950px) { 
-	.box{
+	h1 {
+		font-size: 19em;
+	}
+	.container {
+		top:12%;
 	}
 }
 
 @media (max-width: 925px) { 
-	.box{
-	}
+
 }
 
 @media (max-width: 900px) { 
-	.box{
+	h1 {
+		font-size: 18em;
+	}
+	.container {
+		top:14%;
 	}
 }
 
@@ -130,17 +206,23 @@ h1 {
 }
 
 @media (max-width: 850px) { 
-	.box{
+	h1 {
+		font-size: 17em;
+	}
+	.container {
+		top:16%;
 	}
 }
 
 @media (max-width: 825px) { 
-	.box{
-	}
 }
 
 @media (max-width: 800px) { 
-	.box{
+	h1 {
+		font-size: 16em;
+	}
+	.container {
+		top:17%;
 	}
 }
 
@@ -149,37 +231,47 @@ h1 {
 }
 
 @media (max-width: 750px) { 
-	.box{
+	h1 {
+		font-size: 15em;
+	}
+	.container {
+		top:18%;
 	}
 }
 
 @media (max-width: 725px) { 
-	.box{
-	}
 }
 
 @media (max-width: 700px) { 
-	.box{
+	h1 {
+		font-size: 14em;
+	}
+	.container {
+		top:20%;
 	}
 }
 
 @media (max-width: 675px) {
-
-
 }
 
 /*horizontal iPhone*/
 @media (max-width: 650px) { 
-	.box{
+	h1 {
+		font-size: 13em;
+	}
+	.container {
+		top:23%;
 	}
 }
 @media (max-width: 625px) { 
-	.box{
-	}
 }
 
 @media (max-width: 600px) { 
-	.box{
+	h1 {
+		font-size: 12em;
+	}
+	.container {
+		top:25%;
 	}
 }
 
@@ -188,7 +280,11 @@ h1 {
 }
 
 @media (max-width: 550px) { 
-	.box{
+	h1 {
+		font-size: 11em;
+	}
+	.container {
+		top:27%;
 	}
 }
 
@@ -197,7 +293,12 @@ h1 {
 }
 
 @media (max-width: 500px) { 
-
+	h1 {
+		font-size: 10em;
+	}
+	.container {
+		top:28%;
+	}
 }
 
 @media (max-width: 475px) { 
@@ -205,7 +306,12 @@ h1 {
 }
 
 @media (max-width: 450px) { 
-
+	h1 {
+		font-size: 9em;
+	}
+	.container {
+		top:29%;
+	}
 }
 
 @media (max-width: 425px) { 
@@ -214,5 +320,28 @@ h1 {
 
 /*vertical iPhone*/
 @media (max-width: 400px) { 
+	h1 {
+		font-size: 8em;
+	}
+	.container {
+		top:31%;
+	}
+}
 
+@media (max-width: 350px) { 
+	h1 {
+		font-size: 7em;
+	}
+	.container {
+		top:33%;
+	}
+}
+
+@media (max-width: 300px) { 
+	h1 {
+		font-size: 6em;
+	}
+	.container {
+		top:35%;
+	}
 }

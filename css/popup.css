@@ -22,7 +22,7 @@
 	}
 }
 
-@media (min-width: 401px max-width: ) { 
+@media (min-width: 401px) { 
 	.imgwrapper {
 		width: 400px;
 		height: auto;
@@ -41,7 +41,7 @@
 
 
 h1 {
-	font-family: ;
+	font-family: Libre-Baskerville;
 	font-size: 1.2em;
 
 }
