@@ -1,4 +1,8 @@
-@media (max-width: 400px) { 
+body {
+	font-family: "baskerville-urw", 'Libre Baskerville', serif;
+}
+
+@media (max-width: 409px) { 
 	.imgwrapper {
 		width: 100%;
 		height: 100%;
@@ -12,7 +16,7 @@
 		width: auto;
 	}
 	.intro {
-		display: block;
+		display: none;
 	}
 	.content {
 		display: none;
@@ -22,13 +26,24 @@
 	}
 }
 
-@media (min-width: 401px) { 
+@media (min-width: 410px) and (max-width: 629px) {
 	.imgwrapper {
 		width: 400px;
 		height: auto;
+		margin-right: 10px;
+		float: left;
+	}
+	.setwidth{
+		max-width: 100%;
+		height: auto;
+	}
+	.setheight {
+		max-height: 100%;
+		width: auto;
 	}
 	.intro {
-		display:block;
+		display: inline-block;
+		width: 400px;
 	}
 	.content {
 		display: none;
@@ -38,11 +53,117 @@
 	}
 }
 
+@media (min-width: 630px) and (max-width: 849px) {
+	.imgwrapper {
+		width: 400px;
+		height: auto;
+		margin-right: 10px;
+		float: left;
+	}
+	.setwidth{
+		max-width: 100%;
+		height: auto;
+	}
+	.setheight {
+		max-height: 100%;
+		width: auto;
+	}
+	.intro {
+		display: inline-block;
+		width: 95%;
+	}
+	.content {
+		display: inline-block;
+	}
+	.tidbit {
+		display: block;
+		float: left;
+	}
+	.plumage, .voice, .eggs, .diet {
+		display: none;
+	}
+}
 
+
+
+@media (min-width: 850px) and (max-width: 1050px) { 
+	.imgwrapper {
+		width: 400px;
+		height: auto;
+		margin-right: 10px;
+		float: left;
+	}
+	.setwidth{
+		max-width: 100%;
+		height: auto;
+	}
+	.setheight {
+		max-height: 100%;
+		width: auto;
+	}
+	img {
+		margin-top: 1.5em;
+	}
+	.intro {
+		display: inline-block;
+		width: 400px;
+	}
+	.content {
+		display: inline-block;
+		width: 800px;
+	}
+	.tidbit {
+		display: none;
+		float: right
+	}
+}
+
+@media (min-width: 1051px) and (max-width: 1440px) { 
+	.imgwrapper {
+		width: 400px;
+		height: auto;
+		float: left;
+	}
+	.setwidth{
+		max-width: 100%;
+		height: auto;
+	}
+	.setheight {
+		max-height: 100%;
+		width: auto;
+	}
+	img {
+		margin-top: 1.5em;
+	}
+	.intro {
+		display: inline-block;
+		width: 400px;
+	}
+	.content {
+		display: inline-block;
+		width: 800px;
+	}
+	.tidbit {
+		display: inline-block;
+		float: right;
+		padding-top: 5em;
+	}
+	h6 {
+		padding-bottom: 2em;
+	}
+}
+
+audio {
+	display: none;
+}
+
+.intro, .content {
+	margin-left: 15px;
+	margin-right: 10px;
+}
 
 h1 {
-	font-family: Libre-Baskerville;
-	font-size: 1.2em;
+	font-size: 2em;
 
 }
 
@@ -51,12 +172,25 @@ h2 {
 }
 
 p {
-
+	font-size: 1em;
 }
 
 h6 {
-
+	font-size: 1em;
+	font-weight: 400;
+	font-style: italic;
+	margin: 5px;
 }
+
+.tidbit {
+	max-width: 200px;
+}
+
+.tidbit-category {
+	font-weight: bolder;
+}
+
+
 
 /*This needs to be temporary so that when I start making the responsive encyclopedia
  entry it can be associated with this*/
