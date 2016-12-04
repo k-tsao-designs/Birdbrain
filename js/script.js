@@ -13,19 +13,6 @@ $(document).ready(function() {
 		setTimeout(hideText,2500);
 	});
 
-/*
-	//attempting to close all windows other than current
-	var windows = [];
-	//each time you open a new window, simply add it like this:
-	windows.push(window.open('http://google.com', '_blank'));
-
-	//then you can iterate over them and close them all like this:
-	for(var i = 0; i < windows.length; i++){
-	    windows[i].close()
-	}
-*/
-
-
 	var width400 = window.matchMedia("(min-width: 400px)");
 	var width450 = window.matchMedia("(min-width: 450px)");
 	var width500 = window.matchMedia("(min-width: 500px)");
@@ -66,103 +53,103 @@ $(document).ready(function() {
 
 // media query event handler
 if (matchMedia) {
-	var width400 = window.matchMedia("(min-width: 400px) and (max-width: 449px)");
+	var width400 = window.matchMedia("(min-width: 400px) and (max-width: 401px)");
 	width400.addListener(WidthChange1);
 	WidthChange1(width400);
 }
 if (matchMedia) {
-	var width450 = window.matchMedia("(min-width: 450px) and (max-width: 499px)");
+	var width450 = window.matchMedia("(min-width: 450px) and (max-width: 451px)");
 	width450.addListener(WidthChange2);
 	WidthChange2(width450);
 }
 if (matchMedia) {
-	var width500 = window.matchMedia("(min-width: 500px) and (max-width: 549px)");
+	var width500 = window.matchMedia("(min-width: 500px) and (max-width: 501px)");
 	width500.addListener(WidthChange3);
 	WidthChange3(width500);
 }
 if (matchMedia) {
-	var width550 = window.matchMedia("(min-width: 550px) and (max-width: 599px)");
+	var width550 = window.matchMedia("(min-width: 550px) and (max-width: 551px)");
 	width550.addListener(WidthChange4);
 	WidthChange4(width550);
 }
 if (matchMedia) {
-	var width600 = window.matchMedia("(min-width: 600px) and (max-width: 649px)");
+	var width600 = window.matchMedia("(min-width: 600px) and (max-width: 601px)");
 	width600.addListener(WidthChange5);
 	WidthChange5(width600);
 }
 if (matchMedia) {
-	var width650 = window.matchMedia("(min-width: 650px) and (max-width: 699px)");
+	var width650 = window.matchMedia("(min-width: 650px) and (max-width: 651px)");
 	width650.addListener(WidthChange6);
 	WidthChange6(width650);
 }
 if (matchMedia) {
-	var width700 = window.matchMedia("(min-width: 700px) and (max-width: 749px)");
+	var width700 = window.matchMedia("(min-width: 700px) and (max-width: 701px)");
 	width700.addListener(WidthChange7);
 	WidthChange7(width700);
 }
 if (matchMedia) {
-	var width750 = window.matchMedia("(min-width: 750px) and (max-width: 799px)");
+	var width750 = window.matchMedia("(min-width: 750px) and (max-width: 751px)");
 	width750.addListener(WidthChange8);
 	WidthChange8(width750);
 }
 if (matchMedia) {
-	var width800 = window.matchMedia("(min-width: 800px) and (max-width: 849px)");
+	var width800 = window.matchMedia("(min-width: 800px) and (max-width: 801px)");
 	width800.addListener(WidthChange9);
 	WidthChange9(width800);
 }
 if (matchMedia) {
-	var width850 = window.matchMedia("(min-width: 850px) and (max-width: 899px)");
+	var width850 = window.matchMedia("(min-width: 850px) and (max-width: 851px)");
 	width850.addListener(WidthChange10);
 	WidthChange10(width850);
 }
 
 if (matchMedia) {
-	var width900 = window.matchMedia("(min-width: 900px) and (max-width: 949px)");
+	var width900 = window.matchMedia("(min-width: 900px) and (max-width: 901px)");
 	width900.addListener(WidthChange11);
 	WidthChange11(width900);
 }
 if (matchMedia) {
-	var width950 = window.matchMedia("(min-width: 950px) and (max-width: 999px)");
+	var width950 = window.matchMedia("(min-width: 950px) and (max-width: 951px)");
 	width950.addListener(WidthChange12);
 	WidthChange12(width950);
 }
 if (matchMedia) {
-	var width1000 = window.matchMedia("(min-width: 1000px) and (max-width: 1049px)");
+	var width1000 = window.matchMedia("(min-width: 1000px) and (max-width: 1001px)");
 	width1000.addListener(WidthChange13);
 	WidthChange13(width1000);
 }
 if (matchMedia) {
-	var width1050 = window.matchMedia("(min-width: 1050px) and (max-width: 1099px)");
+	var width1050 = window.matchMedia("(min-width: 1050px) and (max-width: 1051px)");
 	width1050.addListener(WidthChange14);
 	WidthChange14(width1050);
 }
 if (matchMedia) {
-	var width1100 = window.matchMedia("(min-width: 1100px) and (max-width: 1149px)");
+	var width1100 = window.matchMedia("(min-width: 1100px) and (max-width: 1101px)");
 	width1100.addListener(WidthChange15);
 	WidthChange15(width1100);
 }
 if (matchMedia) {
-	var width1150 = window.matchMedia("(min-width: 1150px) and (max-width: 1199px)");
+	var width1150 = window.matchMedia("(min-width: 1150px) and (max-width: 1151px)");
 	width1150.addListener(WidthChange16);
 	WidthChange16(width1150);
 }
 if (matchMedia) {
-	var width1200 = window.matchMedia("(min-width: 1200px) and (max-width: 1249px)");
+	var width1200 = window.matchMedia("(min-width: 1200px) and (max-width: 1201px)");
 	width1200.addListener(WidthChange17);
 	WidthChange17(width1200);
 }
 if (matchMedia) {
-	var width1250 = window.matchMedia("(min-width: 1250px) and (max-width: 1299px)");
+	var width1250 = window.matchMedia("(min-width: 1250px) and (max-width: 1251px)");
 	width1250.addListener(WidthChange18);
 	WidthChange18(width1250);
 }
 if (matchMedia) {
-	var width1300 = window.matchMedia("(min-width: 1300px) and (max-width: 1349px)");
+	var width1300 = window.matchMedia("(min-width: 1300px) and (max-width: 1301px)");
 	width1300.addListener(WidthChange19);
 	WidthChange19(width1300);
 }
 if (matchMedia) {
-	var width1350 = window.matchMedia("(min-width: 1350px) and (max-width: 1399px)");
+	var width1350 = window.matchMedia("(min-width: 1350px) and (max-width: 1351px)");
 	width1350.addListener(WidthChange20);
 	WidthChange20(width1350);
 }
@@ -179,263 +166,346 @@ if (matchMedia) {
 
 
 if (matchMedia) {
-	var height175 = window.matchMedia("(min-height: 175px) and (max-height: 224px)");
+	var height175 = window.matchMedia("(min-height: 175px) and (max-height: 176px)");
 	height175.addListener(HeightChange1);
 	HeightChange1(height175);
 }
 if (matchMedia) {
-	var height225 = window.matchMedia("(min-height: 225px) and (max-height: 274px)");
+	var height225 = window.matchMedia("(min-height: 225px) and (max-height: 226px)");
 	height225.addListener(HeightChange2);
 	HeightChange2(height225);
 }
 if (matchMedia) {
-	var height275 = window.matchMedia("(min-height: 275px) and (max-height: 324px)");
-	height275.addListener(HeightChange1);
+	var height275 = window.matchMedia("(min-height: 275px) and (max-height: 276px)");
+	height275.addListener(HeightChange3);
 	HeightChange3(height275);
 }
 if (matchMedia) {
-	var height325 = window.matchMedia("(min-height: 325px) and (max-height: 374px)");
-	height325.addListener(HeightChange2);
+	var height325 = window.matchMedia("(min-height: 325px) and (max-height: 326px)");
+	height325.addListener(HeightChange4);
 	HeightChange4(height325);
 }
 if (matchMedia) {
-	var height375 = window.matchMedia("(min-height: 375px) and (max-height: 424px)");
-	height375.addListener(HeightChange1);
+	var height375 = window.matchMedia("(min-height: 375px) and (max-height: 376px)");
+	height375.addListener(HeightChange5);
 	HeightChange5(height375);
 }
 if (matchMedia) {
-	var height425 = window.matchMedia("(min-height: 425px) and (max-height: 474px)");
-	height425.addListener(HeightChange2);
+	var height425 = window.matchMedia("(min-height: 425px) and (max-height: 426px)");
+	height425.addListener(HeightChange6);
 	HeightChange6(height425);
 }
 if (matchMedia) {
-	var height475 = window.matchMedia("(min-height: 475px) and (max-height: 524px)");
-	height475.addListener(HeightChange1);
+	var height475 = window.matchMedia("(min-height: 475px) and (max-height: 476px)");
+	height475.addListener(HeightChange7);
 	HeightChange7(height475);
 }
 if (matchMedia) {
-	var height525 = window.matchMedia("(min-height: 525px) and (max-height: 574px)");
-	height525.addListener(HeightChange2);
+	var height525 = window.matchMedia("(min-height: 525px) and (max-height: 526px)");
+	height525.addListener(HeightChange8);
 	HeightChange8(height525);
 }
 if (matchMedia) {
-	var height575 = window.matchMedia("(min-height: 575px) and (max-height: 624px)");
-	height575.addListener(HeightChange1);
+	var height575 = window.matchMedia("(min-height: 575px) and (max-height: 576px)");
+	height575.addListener(HeightChange9);
 	HeightChange9(height575);
 }
 if (matchMedia) {
-	var height625 = window.matchMedia("(min-height: 625px) and (max-height: 674px)");
-	height625.addListener(HeightChange2);
+	var height625 = window.matchMedia("(min-height: 625px) and (max-height: 626px)");
+	height625.addListener(HeightChange10);
 	HeightChange10(height625);
 }
 if (matchMedia) {
-	var height675 = window.matchMedia("(min-height: 675px) and (max-height: 724px)");
-	height675.addListener(HeightChange1);
+	var height675 = window.matchMedia("(min-height: 675px) and (max-height: 676px)");
+	height675.addListener(HeightChange11);
 	HeightChange11(height675);
 }
 if (matchMedia) {
-	var height725 = window.matchMedia("(min-height: 725px) and (max-height: 774px)");
-	height725.addListener(HeightChange2);
+	var height725 = window.matchMedia("(min-height: 719px) and (max-height: 720px)");
+	height725.addListener(HeightChange12);
 	HeightChange12(height725);
 }
 
+var winW400;
+var winW450;
+var winW500;
+var winW550;
+var winW600;
+var winW650;
+var winW700;
+var winW750;
+var winW800;
+var winW850;
+var winW900;
+var winW950;
+var winW1000;
+var winW1050;
+var winW1100;
+var winW1150;
+var winW1200;
+var winW1250;
+var winW1300;
+var winW1350;
+var winW1400;
+var winW1440;
+
+var winH175;
+var winH225;
+var winH275;
+var winH325;
+var winH375;
+var winH425;
+var winH475;
+var winH525;
+var winH575;
+var winH625;
+var winH675;
+var winH725;
+
+var names = ["Jonathan", "Luke", "Kelly", "Noah", "Bohao", "Tyler", "Emma", "Sophia", "Jackson", "Aiden", "Olivia", "Lucas", "Ava", "Liam", "Mia", "Isabella", "Ethan", "Riley", "Mason", "Aria", "Caden", "Zoe", "Oliver", "Charlotte", "Elijah", "Lily", "Grayson", "Leila", "Jacob", "Amelia", "Michael", "Emily", "Benjamin", "Madelyn", "Carter", "Aubrey", "James", "Madison", "Logan", "Chloe", "Alexander", "Harper", "Caleb", "Winston", "Daniel", "Addison", "Nostradamus", "Ebenezer", "Mildred", "Melrose", "Pinky", "Marlon Brando", "Fritz", "Lysander", "Hestia", "Raj", "Stumpy", "Oops", "The Dude", "Marvel", "Ramses", "Cleopatra", "Averil", "Durand", "Eluned", "Iolo", "Yevan", "Meliora", "Oriel", "Christopher", "Ella", "Eve", "Adam", "Trevor", "William", "Anna", "Jessica", "Rachel", "Christina", "Zachary", "Margaret", "Kelsey", "Elizabeth", "Bridget", "Renee", "Maria", "Isaac", "Cheryl", "Walter", "Beatrice", "Adeline"];
+var countNames = names.length;
+var r = Math.floor((Math.random() * countNames) + 0);;
+var randomName = names[r];
 
 // media query change
 function WidthChange1(width400) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width400.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link1.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winW400 = window.open("link1.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW400.focus();
+    	setTimeout(function(){ winW400.close() }, 4000);
     }
 }
 
 function WidthChange2(width450) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width450.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link2.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winW450 = window.open("link2.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW450.focus();
+    	setTimeout(function(){ winW450.close() }, 4000);
     } 
 }
 
 function WidthChange3(width500) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width500.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link3.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winW500 = window.open("link3.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW500.focus();
+    	setTimeout(function(){ winW500.close() }, 4000);
    }
 }
 
 function WidthChange4(width550) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width550.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link4.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winW550 = window.open("link4.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW550.focus();
+    	setTimeout(function(){ winW550.close() }, 4000);
     } 
 }
 
 function WidthChange5(width600) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width600.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link5.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW600 = window.open("link5.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW600.focus();
+    	setTimeout(function(){ winW600.close() }, 4000);
   	} 
 }
 
 function WidthChange6(width650) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width650.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link6.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW650 = window.open("link6.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW650.focus();
+    	setTimeout(function(){ winW650.close() }, 4000);
   	} 
 }
 
 function WidthChange7(width700) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width700.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link7.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW700 = window.open("link7.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW700.focus();
+    	setTimeout(function(){ winW700.close() }, 4000);
   	} 
 }
 
 function WidthChange8(width750) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width750.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link8.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW750 = window.open("link8.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW750.focus();
+    	setTimeout(function(){ winW750.close() }, 4000);
   	} 
 }
 
 function WidthChange9(width800) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width800.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link9.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW800 = window.open("link9.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW800.focus();
+    	setTimeout(function(){ winW800.close() }, 4000);
   	} 
 }
 
 function WidthChange10(width850) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width850.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link10.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW850 = window.open("link10.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW850.focus();
+    	setTimeout(function(){ winW850.close() }, 4000);
   	} 
 }
 
 function WidthChange11(width900) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width900.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link11.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW900 = window.open("link11.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW900.focus();
+    	setTimeout(function(){ winW900.close() }, 4000);
   	} 
 }
 
 function WidthChange12(width950) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width950.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link12.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW950 = window.open("link12.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW950.focus();
   	} 
 }
 
 function WidthChange13(width1000) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1000.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link13.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1000 = window.open("link13.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1000.focus();
+    	setTimeout(function(){ winW1000.close() }, 4000);
   	} 
 }
 
 function WidthChange14(width1050) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1050.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link14.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1050 = window.open("link14.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1050.focus();
+    	setTimeout(function(){ winW1050.close() }, 4000);
   	} 
 }
 
 function WidthChange15(width1100) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1100.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link15.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1100 = window.open("link15.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1100.focus();
+    	setTimeout(function(){ winW1100.close() }, 4000);
   	} 
 }
 
 function WidthChange16(width1150) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1150.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link16.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1150 = window.open("link16.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1150.focus();
+    	setTimeout(function(){ winW1150.close() }, 4000);
   	} 
 }
 
 function WidthChange17(width1200) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1200.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link17.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1200 = window.open("link17.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1200.focus();
+    	setTimeout(function(){ winW1200.close() }, 4000);
   	} 
 }
 
 function WidthChange18(width1250) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1250.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link18.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1250 = window.open("link18.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1250.focus();
+    	setTimeout(function(){ winW1250.close() }, 4000);
   	} 
 }
 
 function WidthChange19(width1300) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1300.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link19.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1300 = window.open("link19.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1300.focus();
+    	setTimeout(function(){ winW1300.close() }, 4000);
   	} 
 }
 
 function WidthChange20(width1350) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1350.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link20.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1350 = window.open("link20.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1350.focus();
+    	setTimeout(function(){ winW1350.close() }, 4000);
   	} 
 }
 
 function WidthChange21(width1400) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1400.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link21.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1400 = window.open("link21.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1400.focus();
+    	setTimeout(function(){ winW1400.close() }, 4000);
   	} 
 }
 
 function WidthChange22(width1440) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (width1440.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-  		window.open("link22.html",'_blank', "resizable=yes,width=300,height=200,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+  		winW1440 = window.open("link22.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winW1440.focus();
+    	setTimeout(function(){ winW1440.close() }, 4000);
   	} 
 }
 
@@ -446,112 +516,146 @@ function WidthChange22(width1440) {
 
 
 function HeightChange1(height175) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height175.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link23.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH175 = window.open("link23.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH175.focus();
+    	setTimeout(function(){ winH175.close() }, 4000);
     }
 }
 
 function HeightChange2(height225) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height225.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link24.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH225 = window.open("link24.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH225.focus();
+    	setTimeout(function(){ winH225.close() }, 4000);
     } 
 }
 
 function HeightChange3(height275) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height275.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link25.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH275=window.open("link25.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH275.focus();
+    	setTimeout(function(){ winH275.close() }, 4000);
     }
 }
 
 function HeightChange4(height325) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height325.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link26.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH325=window.open("link26.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH325.focus();
+    	setTimeout(function(){ winH325.close() }, 4000);
     } 
 }
 
 function HeightChange5(height375) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height375.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link27.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH375=window.open("link27.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH375.focus();
+    	setTimeout(function(){ winH375.close() }, 4000);
     }
 }
 
 function HeightChange6(height425) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height425.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link28.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH425=window.open("link28.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH425.focus();
+    	setTimeout(function(){ winH425.close() }, 4000);
     } 
 }
 
 function HeightChange7(height475) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height475.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link29.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH475 = window.open("link29.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH475.focus();
+    	setTimeout(function(){ winH475.close() }, 4000);
     }
 }
 
 function HeightChange8(height525) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height525.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link30.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH525=window.open("link30.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH525.focus();
+    	setTimeout(function(){ winH525.close() }, 4000);
     } 
 }
 
 function HeightChange9(height575) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height575.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link31.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH575=window.open("link31.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH575.focus();
+    	setTimeout(function(){ winH575.close() }, 4000);
     }
 }
 
 function HeightChange10(height625) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height625.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link32.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH625=window.open("link32.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH625.focus();
+    	setTimeout(function(){ winH625.close() }, 4000);
     } 
 }
 
 function HeightChange11(height675) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height675.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link33.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH675 = window.open("link33.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH675.focus();
+    	setTimeout(function(){ winH675.close() }, 4000);
     }
 }
 
 function HeightChange12(height725) {
+	r = Math.floor((Math.random() * countNames) + 0);
 	if (height725.matches) {
     	var randomTop = Math.floor((Math.random() * 675) + 0);
     	var randomLeft = Math.floor((Math.random() * 1340) + 0);
-    	window.open("link34.html",'_blank', "resizable=yes,width=150,height=125,top=" + randomTop +",left=" + randomLeft +"");
-    	window.focus();
+    	winH725 = window.open("link34.html",'_blank', "resizable=yes,width=150,height=100,top=" + randomTop +",left=" + randomLeft +"");
+    	winH725.focus();
+    	setTimeout(function(){ winH725.close() }, 4000);
     } 
 }
+
+// $(window).on("orientationchange",function(){
+//     var iframe = document.createElement('iframe');
+// 		iframe.frameBorder=0;
+// 		iframe.width="50%";
+// 		iframe.height="50%";
+// 		// iframe.id="randomid";
+// 	    iframe.src = link34.html;
+//     document.body.appendChild(iframe);
+// });
 
 });
 
