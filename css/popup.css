@@ -4,16 +4,13 @@ body {
 
 @media (max-width: 409px) { 
 	.imgwrapper {
+		position: relative;
 		width: 100%;
 		height: 100%;
 	}
 	.setwidth{
-		max-width: 100%;
+		width: 100%;
 		height: auto;
-	}
-	.setheight {
-		max-height: 100%;
-		width: auto;
 	}
 	.intro {
 		display: none;
@@ -34,7 +31,7 @@ body {
 		float: left;
 	}
 	.setwidth{
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 	.setheight {
@@ -61,7 +58,7 @@ body {
 		float: left;
 	}
 	.setwidth{
-		max-width: 100%;
+		width: 100%;
 		height: auto;
 	}
 	.setheight {
